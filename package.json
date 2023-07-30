@@ -1,0 +1,22 @@
+{
+  "name": "namstey-react",
+  "version": "1.0.0",
+  "description": "This is Namstey react by Abhishek Singh",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhi13011990/namstey-react.git"
+  },
+  "author": "Abhishek Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhi13011990/namstey-react/issues"
+  },
+  "homepage": "https://github.com/Abhi13011990/namstey-react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
