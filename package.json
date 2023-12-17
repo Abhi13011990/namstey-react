@@ -1,7 +1,7 @@
 {
   "name": "namstey-react",
   "version": "1.0.0",
-  "description": "This is Namstey react by Abhishek Singh", 
+  "description": "This is Namstey react by Abhishek Singh",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -19,11 +19,14 @@
   "homepage": "https://github.com/Abhi13011990/namstey-react#readme",
   "devDependencies": {
     "parcel": "^2.9.3",
-    "process": "^0.11.10"
+    "postcss": "^8.4.27",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2"
   },
   "browserList": [
     "last 2 chrome"
