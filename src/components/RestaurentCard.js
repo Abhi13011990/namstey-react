@@ -12,7 +12,6 @@ const RestaurentCard = ({
   cloudinaryImageId,
 }) => {
 
-  const {loggedInUser} = useContext(UserContext)
   return (
     <div className="hover:shadow-md p-4" id={id}>
       <div className="cardImg">
@@ -29,7 +28,6 @@ const RestaurentCard = ({
       <h4>{costForTwo}</h4>
       <h4>{deliveryTime} Minutes</h4>
       </div>
-      <h4>User : {loggedInUser} </h4>
     </div>
   );
 };

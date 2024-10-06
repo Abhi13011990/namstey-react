@@ -19,7 +19,7 @@ const Grocery = lazy(() => import("./components/Grocery"));
 
 const AppLayout = () => {
 
-  const [userName, setUserName] = useState("Abhishek Singh");
+  const [userName, setUserName] = useState("");
   // const {loggedInUser} = useContext(UserContext)
   return (
     <UserContext.Provider value={{loggedInUser:userName, setUserName}}>

@@ -35,6 +35,7 @@ const Body = () => {
   if (isInternet === false) {
     return <h1>Please Check Your Internet Connection</h1>;
   }
+  console.log(restaurentList)
 
   return restaurentList.length === 0 ? (
     <Simmer />

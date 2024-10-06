@@ -29,16 +29,14 @@ const Header = () => {
           <li className="px-4 py-2 hover:bg-slate-50 cursor-pointer hover:shadow-md w-32 text-center">
             <Link to="/grocery">Grocery</Link>
           </li>
-          <button
+          <li
              className="px-4 py-2 hover:bg-slate-50 cursor-pointer hover:shadow-md w-32 text-center"
             onClick={() =>
               isLogin == "Login" ? setIsLogin("Logout") : setIsLogin("Login")
             }
           >
-            {isLogin}
-          </button>
-
-          <li>{loggedInUser}</li>
+            {isLogin == "Login" ? isLogin : loggedInUser}
+          </li>
         </ul>
       </div>
     </div>

@@ -6,7 +6,7 @@ import RestaurantCategoryItems from "./RestaurantCategoryItems";
 const RestaurantMenu = () => {
   const resId = useParams();
 
-  const resMenu = useRestaurantMenu(resId);
+  const  resMenu = useRestaurantMenu(resId);
 
   if (resMenu === null) return <Simmer />;
 

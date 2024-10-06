@@ -12,14 +12,13 @@ const useFetchApi = () => {
   const fetchApi = async () => {
     const data = await fetch(MAIN_API);
     const jsonData = await data.json();
+    console.log(jsonData?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
     setRestaurantList(
-      jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants
+      jsonData?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
 
     setFilterRes(
-        jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
-          ?.restaurants
+      jsonData?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
       );
   };
 
